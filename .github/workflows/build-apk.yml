@@ -19,7 +19,7 @@ jobs:
         with:
           gradle-version: '8.7'
 
-      - uses: android-actions/setup-android@v3
+      - uses: android-actions/setup-android@v4
 
       - name: Build Debug APK
         run: gradle assembleDebug --no-daemon
